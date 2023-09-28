@@ -6,6 +6,7 @@ A custom board can be defined by editing the array in code.
 
 ## Example
 ### Input:
+
 |   |   |   |   |   |   |   |   |   |
 |---|---|---|---|---|---|---|---|---|
 | 2 | 8 | 0 | 0 | 9 | 7 | 3 | 0 | 0 |
@@ -17,6 +18,7 @@ A custom board can be defined by editing the array in code.
 | 3 | 0 | 0 | 8 | 0 | 0 | 7 | 2 | 0 |  
 | 0 | 0 | 8 | 0 | 2 | 0 | 4 | 0 | 3 |  
 | 0 | 0 | 4 | 3 | 7 | 0 | 0 | 5 | 8 |  
+
 ### Output
 | 2 | 8 | 6 | 1 | 9 | 7 | 3 | 4 | 5 |  
 | 4 | 1 | 7 | 6 | 3 | 5 | 8 | 9 | 2 |  
