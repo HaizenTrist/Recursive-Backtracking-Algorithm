@@ -1,6 +1,7 @@
 Implementation of a recursive backtracking algorithm to solve Sudoku board.
 
 Algorithm will proceduraly solve a provided Sudoku board until a mistake is made, at which point it will backtrack to the previous tile and try again with a new solution.
+
 This process will repeat until the board is solved or no solutions are possible.
 
 A custom board can be defined by editing the array in code. An example board is provided below (0 represe)
