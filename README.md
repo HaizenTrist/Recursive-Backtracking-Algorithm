@@ -2,22 +2,22 @@ Implementation of a recursive backtracking algorithm to solve Sudoku board.
 
 Algorithm will proceduraly solve a provided Sudoku board until a mistake is made, at which point it will revert to the previous tile and repeat until the board is solved.
 
-A custom board can be defined by editing the array in code.
+A custom board can be defined by editing the array in code. An example board is provided below (0 represe)
 
 ## Example
 ### Input:
 
 |   |   |   |   |   |   |   |   |   |
 |---|---|---|---|---|---|---|---|---|
-| 2 | 8 | 0 | 0 | 9 | 7 | 3 | 0 | 0 |
-| 4 | 0 | 7 | 0 | 3 | 0 | 8 | 0 | 0 |  
-| 0 | 3 | 5 | 0 | 0 | 8 | 0 | 0 | 6 |  
-| 0 | 0 | 0 | 0 | 1 | 3 | 0 | 8 | 0 |  
-| 8 | 0 | 1 | 0 | 0 | 0 | 5 | 0 | 7 |  
-| 0 | 5 | 0 | 7 | 8 | 0 | 0 | 0 | 0 |  
-| 3 | 0 | 0 | 8 | 0 | 0 | 7 | 2 | 0 |  
-| 0 | 0 | 8 | 0 | 2 | 0 | 4 | 0 | 3 |  
-| 0 | 0 | 4 | 3 | 7 | 0 | 0 | 5 | 8 |  
+| 2 | 8 |   |   | 9 | 7 | 3 |   |   |
+| 4 |   | 7 |   | 3 |   | 8 |   |   |  
+|   | 3 | 5 |   |   | 8 |   |   | 6 |  
+|   |   |   |   | 1 | 3 |   | 8 |   |  
+| 8 |   | 1 |   |   |   | 5 |   | 7 |  
+|   | 5 |   | 7 | 8 |   |   |   |   |  
+| 3 |   |   | 8 |   |   | 7 | 2 |   |  
+|   |   | 8 |   | 2 |   | 4 |   | 3 |  
+|   |   | 4 | 3 | 7 |   |   | 5 | 8 |  
 
 ### Output
 
