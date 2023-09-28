@@ -1,6 +1,5 @@
-# Backtracking Sudoku Solver
-Basic backtracking algorithm used to recursively solve a Sudoku board. 
+Implementation of a recursive backtracking algorithm to solve Sudoku board.
 
-The program will check for empty cells try all possible numbers until a valid play is made. If a valid play is no longer possible it will backtrack, resetting the previous cell and trying a different number.
+Algorithm will proceduraly solve a provided Sudoku board until a mistake is made, at which point it will revert to the previous tile and repeat until the board is solved.
 
-The input board can be changed by editing it inside the project file.
+A basic visualization of the algorithm's operation and the ability to enter a custom board is provided using the PyGame library.
