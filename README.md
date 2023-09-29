@@ -1,3 +1,5 @@
+# Solving Any Sudoku Board in 1 second
+
 Created a program to automatically solve any valid Sudoku board using Python in under 1 second.
 
 Removed all possibility of incorrect solutions by allowing the program to go back and try a different answer upon detecting a mistake using the Backtracking method.
