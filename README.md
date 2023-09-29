@@ -1,4 +1,4 @@
-# Solving Any Sudoku Board in 1 second
+# Solving Any Sudoku Board in 1 Second
 
 Created a program to automatically solve any valid Sudoku board using Python in under 1 second.
 
