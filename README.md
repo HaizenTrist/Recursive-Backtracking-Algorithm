@@ -1,10 +1,8 @@
-Implementation of a recursive backtracking algorithm to solve Sudoku board.
+Created a program to automatically solve any valid Sudoku board using Python in under 1 second.
 
-Algorithm will proceduraly solve a provided Sudoku board until a mistake is made, at which point it will backtrack to the previous tile and try again with a new solution.
+Removed all possibility of incorrect solutions by allowing the program to go back and try a different answer upon detecting a mistake using the Backtracking method.
 
-This process will repeat until the board is solved or no solutions are possible.
-
-A custom board can be defined by editing the array in code. An example board is provided below.
+A custom board can be defined by editing the array in code. The example board is provided below:
 
 ## Example
 ### Input:
@@ -21,7 +19,7 @@ A custom board can be defined by editing the array in code. An example board is 
 |   |   | 8 |   | 2 |   | 4 |   | 3 |  
 |   |   | 4 | 3 | 7 |   |   | 5 | 8 |  
 
-### Output
+### Output:
 
 |   |   |   |   |   |   |   |   |   |
 |---|---|---|---|---|---|---|---|---|
